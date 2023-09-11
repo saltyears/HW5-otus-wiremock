@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import otus.pojo.Data;
 import otus.pojo.User;
 
-public class TestHelperMock extends TestNGCitrusTestRunner {
+public class RestHelperMock extends TestNGCitrusTestRunner {
     private TestContext context;
 
     @Test(description = "Получение информации о пользователе", enabled=true)
