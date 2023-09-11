@@ -1,21 +1,22 @@
 package wiremock;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.junit.*;
+import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Scanner;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
+
 public class WiremockTests {
 
   @Test
-  public void get_users_stub_wiremock() throws IOException {
+  public void GetUsersStubWiremock() throws IOException {
 
     CloseableHttpClient httpClient = HttpClients.createDefault();
 
@@ -28,7 +29,7 @@ public class WiremockTests {
   }
 
   @Test
-  public void get_cources_stub_wiremock() throws IOException {
+  public void GetCourcesStubWiremock() throws IOException {
 
     CloseableHttpClient httpClient = HttpClients.createDefault();
 
@@ -41,7 +42,7 @@ public class WiremockTests {
   }
 
   @Test
-  public void get_user_estimation_stub_wiremock() throws IOException {
+  public void GetUserEstimationStubWiremock() throws IOException {
 
     CloseableHttpClient httpClient = HttpClients.createDefault();
 
