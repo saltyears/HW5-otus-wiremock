@@ -8,7 +8,6 @@ import com.consol.citrus.message.MessageType;
 import org.springframework.http.HttpStatus;
 import org.testng.annotations.Test;
 import otus.pojo.Data;
-import otus.pojo.Support;
 import otus.pojo.User;
 
 public class TestHelperMock extends TestNGCitrusTestRunner {
