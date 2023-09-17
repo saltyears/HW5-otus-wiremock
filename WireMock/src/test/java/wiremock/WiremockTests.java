@@ -15,6 +15,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class WiremockTests {
 
+  //метод для получения списка курсов
   @Test
   public void GetUsersStubWiremock() throws IOException {
 
@@ -28,6 +29,7 @@ public class WiremockTests {
     assertThat(responseString).isEqualTo("[{\"id\":1,\"name\":\"Test user\", \"cource\":\"QA\", \"email\":\"test@test.test\",\"age\": 23}]");
   }
 
+  //метод для получения списка пользователей
   @Test
   public void GetCourcesStubWiremock() throws IOException {
 
@@ -41,6 +43,7 @@ public class WiremockTests {
     assertThat(responseString).isEqualTo("[{\"name\":\"QA java\",\"price\": 15000},{\"name\":\"Java\",\"price\": 12000}]");
   }
 
+  //метод для получения оценки пользователя
   @Test
   public void GetUserEstimationStubWiremock() throws IOException {
 

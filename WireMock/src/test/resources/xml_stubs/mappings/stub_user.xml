@@ -7,7 +7,7 @@
    <response>
       <body>{"id":1,"name":"Test user", "course":"QA", "email":"test@test.test","age": 23}</body>
       <headers>
-         <Content-Type>application/json</Content-Type>
+         <Content-Type>application/xml</Content-Type>
       </headers>
       <status>200</status>
    </response>
