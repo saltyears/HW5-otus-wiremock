@@ -26,7 +26,7 @@ public class WiremockTests {
     String responseString = convertResponseToString(httpResponse);
 
     assertThat(httpResponse.getStatusLine().getStatusCode()).isEqualTo(200);
-    assertThat(responseString).isEqualTo("[{\"id\":1,\"name\":\"Test user\", \"cource\":\"QA\", \"email\":\"test@test.test\",\"age\": 23}]");
+    assertThat(responseString).isEqualTo("{\"id\":1,\"name\":\"Test user\", \"course\":\"QA\", \"email\":\"test@test.test\",\"age\": 23}");
   }
 
   //метод для получения списка пользователей
@@ -35,7 +35,7 @@ public class WiremockTests {
 
     CloseableHttpClient httpClient = HttpClients.createDefault();
 
-    HttpGet request = new HttpGet(String.format("%s/cource/get/all", "http://localhost:8080"));
+    HttpGet request = new HttpGet(String.format("%s/course/get/all", "http://localhost:8080"));
     HttpResponse httpResponse = httpClient.execute(request);
     String responseString = convertResponseToString(httpResponse);
 
