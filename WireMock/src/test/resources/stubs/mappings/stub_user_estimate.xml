@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <request>
+      <method>GET</method>
+      <urlPattern>/user/get/1</urlPattern>
+   </request>
+   <response>
+      <body>{ "id": 1, "name": "Test user", "score": 78 }</body>
+      <headers>
+         <Content-Type>application/json</Content-Type>
+      </headers>
+      <status>200</status>
+   </response>
+</root>

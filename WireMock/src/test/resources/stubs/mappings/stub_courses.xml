@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <request>
+      <method>GET</method>
+      <url>/course/get/all</url>
+   </request>
+   <response>
+      <body>[{"name":"QA java","price": 15000},{"name":"Java","price": 12000}]</body>
+      <headers>
+         <Content-Type>application/json</Content-Type>
+      </headers>
+      <status>200</status>
+   </response>
+</root>
