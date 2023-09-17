@@ -1,7 +1,7 @@
 {
     "request": {
         "method": "GET",
-        "url": "/cource/get/all"
+        "url": "/course/get/all"
     },
     "response": {
         "status": 200,

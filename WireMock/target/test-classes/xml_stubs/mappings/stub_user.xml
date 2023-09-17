@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <request>
+      <method>GET</method>
+      <url>/user/get/all</url>
+   </request>
+   <response>
+      <body>{"id":1,"name":"Test user", "course":"QA", "email":"test@test.test","age": 23}</body>
+      <headers>
+         <Content-Type>application/xml</Content-Type>
+      </headers>
+      <status>200</status>
+   </response>
+</root>

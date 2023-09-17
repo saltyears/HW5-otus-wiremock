@@ -5,7 +5,7 @@
     },
     "response": {
         "status": 200,
-        "body": "[{\"id\":1,\"name\":\"Test user\", \"cource\":\"QA\", \"email\":\"test@test.test\",\"age\": 23}]",
+        "body": "{\"id\":1,\"name\":\"Test user\", \"course\":\"QA\", \"email\":\"test@test.test\",\"age\": 23}",
 		"headers": {
             "Content-Type": "application/json"
         }
